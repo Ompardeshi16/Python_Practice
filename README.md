@@ -1,58 +1,93 @@
 # Python_Practice
+
 Ethan Tech Classes
 
+A comprehensive Python learning repository from Ethan Tech Classes, covering core Python concepts through practical examples and beginner-friendly Jupyter notebooks.
 
-A comprehensive Python learning repository from **Ethan Tech Classes**, containing structured practice materials and interactive Jupyter notebooks covering fundamental Python concepts.
+## Repository Contents
 
-## 📚 Repository Contents
+### 1. Loops
+File: `Loops/Loop_Practice.ipynb`
 
-### 1. **Loops** (`Loops/Loop_Practice.ipynb`)
-Master iterative programming with practical examples:
-- **For loops** - Basic iteration with range objects
-- **Nested loops** - Multi-level loop structures with practical examples
-- **Triple nested loops** - Complex iteration patterns for matching values across multiple lists
+Topics covered:
+- Basic `for` loops using `range()`
+- Nested loops
+- Multi-level loop comparisons
+- Matching values across multiple lists
 
-**Key Concepts:**
-- Using `range()` for controlled iteration
-- List comprehension and nested iteration
-- Conditional logic within loops
+Key concepts:
+- Iteration patterns
+- Conditional logic inside loops
+- Working with multiple nested collections
 
-### 2. **Operators** (`Operators/Operators Practice.ipynb`)
-Complete guide to Python operators with hands-on examples:
-- **Arithmetic Operators** - Addition, subtraction, multiplication, division, modulus, exponentiation, floor division
-- **Comparison Operators** - Equal, not equal, greater than, less than, greater than or equal, less than or equal
-- **Logical Operators** - AND, OR, NOT operations
-- **Assignment Operators** - Compound assignment (+=, -=, *=, /=, %=, etc.)
-- **Bitwise Operators** - AND, OR, XOR, NOT, left shift, right shift
-- **Identity Operators** - `is` and `is not` for object comparison
-- **Membership Operators** - `in` and `not in` for container checks
+### 2. Operators
+Files:
+- `Operators/Operators Practice.ipynb`
+- `Operators/Advanced_List.ipynb`
+- `Operators/Advanced_Set.ipynb`
+- `Operators/Advanced_Tuple.ipynb`
 
-### 3. **Strings** 
-Comprehensive string manipulation and analysis:
+Topics covered:
+- Arithmetic operators
+- Comparison operators
+- Logical operators
+- Assignment operators
+- Bitwise operators
+- Identity operators
+- Membership operators
+- List operations: add, remove, copy, sort, reverse, count, search
+- Set operations: union, intersection, difference, symmetric difference
+- Tuple operations: access, slicing, searching, joining, repetition
 
-#### String Functions (`Strings/String_Functions.ipynb`)
-- **Case Conversion** - `upper()`, `lower()`, `capitalize()`
-- **String Manipulation** - `replace()`, `join()`, `split()`
-- **Search Functions** - `count()`, `find()`, `index()`, `startswith()`, `endswith()`
-- **Validation Methods** - `isnumeric()`, `isdigit()`, `isalpha()`, `isalnum()`
-- **Substring Extraction** - Slicing and character filtering
-- **Type Conversion** - Converting between string, integer, and float types
+Key concepts:
+- Data type operations
+- Collection manipulation
+- Set algebra
+- Tuple immutability and usage
 
-#### String Practice (`Strings/String_practice.ipynb`)
-- String slicing and indexing
-- Membership checking (`in` operator)
-- Escape sequences (`\'`, `\\`, `\n`, `\t`)
+### 3. Strings
+Files:
+- `Strings/String_Functions.ipynb`
+- `Strings/String_practice.ipynb`
 
-## 🎯 Learning Objectives
+Topics covered:
+- Case conversion: `upper()`, `lower()`, `capitalize()`
+- String manipulation: `replace()`, `join()`, `split()`
+- Search and count: `count()`, `find()`, `index()`, `startswith()`, `endswith()`
+- Validation: `isnumeric()`, `isdigit()`, `isalpha()`, `isalnum()`
+- Substring extraction and slicing
+- Type conversion between strings, integers, and floats
+- Escape sequences and string membership checks
 
-This repository helps you master:
-- ✅ Control flow with loops and nested iterations
-- ✅ All Python operator types and their practical applications
-- ✅ String manipulation, validation, and transformation
-- ✅ Type conversion and data type handling
-- ✅ Real-world problem-solving with code examples
+Key concepts:
+- String indexing and slicing
+- String validation and transformation
+- Working with text data in Python
 
-## 🚀 Getting Started
+### 4. Projects and Practice Exercises
+File: `Projects/StuNamaProject.ipynb`
+
+Topics covered:
+- User input handling
+- List creation and data collection
+- Checking attendance or presence using loops
+- Conditional logic for membership checking
+
+Key concepts:
+- Building simple real-world Python mini-projects
+- Practical use of loops and conditionals
+
+## Learning Objectives
+
+This repository helps learners practice and understand:
+- Python syntax and basic programming logic
+- Control flow with loops and conditions
+- Python operators and expressions
+- String handling and data transformation
+- Working with lists, sets, and tuples
+- Small practical coding exercises and mini-projects
+
+## Getting Started
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -61,12 +96,16 @@ This repository helps you master:
 ### Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/Ompardeshi16/Python_Practice.git
 cd Python_Practice
 
-# Install Jupyter (if not already installed)
+# Install Jupyter if needed
 pip install jupyter
 
 # Launch Jupyter Notebook
 jupyter notebook
+```
+
+## Notes
+
+This repository is designed for learners who want to strengthen their understanding of Python fundamentals through structured examples and hands-on practice.
