@@ -2,7 +2,7 @@
 
 Ethan Tech Classes
 
-A comprehensive Python learning repository covering core concepts, practical exercises, and beginner-friendly Jupyter notebooks.
+A comprehensive Python learning repository covering core Python concepts, practical exercises, object-oriented programming, file handling, and beginner-friendly Jupyter notebooks.
 
 ## Repository Contents
 
@@ -71,6 +71,7 @@ Files:
 - `Functions/Functions_Practice.ipynb`
 - `Functions/Return_nonReturn.ipynb`
 - `Functions/Exception_Handling.ipynb`
+- `Functions/Decorator.ipynb`
 
 Topics covered:
 - Function creation with and without arguments
@@ -78,12 +79,14 @@ Topics covered:
 - Lambda functions
 - Return vs non-return functions
 - Yield-based generator-style functions
+- Decorators and wrapper functions
 - Exception handling with `try`, `except`, `else`, and `finally`
 - Common Python errors: `SyntaxError`, `IndentationError`, `NameError`, `TypeError`, `ValueError`, `IndexError`, `KeyError`, `FileNotFoundError`, `ImportError`, `AttributeError`
 
 Key concepts:
 - Reusable code with functions
 - Error-safe programming practices
+- Advanced function patterns
 - Handling runtime faults effectively
 
 ### 5. File Handling
@@ -119,8 +122,45 @@ Key concepts:
 - Encapsulation via methods and attributes
 - Simple class design patterns
 
-### 7. Mini Projects and Practice Exercises
-File:
+### 7. Object-Oriented Programming (Advanced)
+Files:
+- `OOPs/Inheritance.ipynb`
+- `OOPs/Polymorphism.ipynb`
+- `OOPs/Access Modifier/AccessModifierVariable.ipynb`
+- `OOPs/Access Modifier/AccessModifierMethod.ipynb`
+
+Topics covered:
+- Single, multilevel, and multiple inheritance
+- Method overriding and method overloading
+- Access modifiers: public, protected, and private
+- Real-world OOP concepts and class interactions
+
+Key concepts:
+- Reusability through inheritance
+- Behavior flexibility with polymorphism
+- Encapsulation and access control
+
+### 8. Deep Dive Python Concepts
+Files:
+- `Deep_Dive/Iterators_and_Iterables.ipynb`
+- `Deep_Dive/List_Comp.ipynb`
+- `Deep_Dive/Loops.ipynb`
+- `Deep_Dive/Deep Functions/Instance_Class_Method.ipynb`
+
+Topics covered:
+- Iterators and iterables
+- `enumerate()` and filtering
+- List comprehension and dictionary comprehension
+- Class variables, instance variables, and class methods
+- Advanced pattern and logic practice
+
+Key concepts:
+- Python internals and iteration
+- Efficient looping patterns
+- OOP fundamentals at a deeper level
+
+### 9. Mini Projects and Practice Exercises
+Files:
 - `Projects/StuNamaProject.ipynb`
 
 Topics covered:
@@ -142,7 +182,8 @@ This repository helps learners practice and understand:
 - String handling and data transformation
 - Working with lists, sets, tuples, and dictionaries
 - File handling and OOP fundamentals
-- Function creation and exception handling
+- Function creation, decorators, and exception handling
+- Inheritance, polymorphism, and access modifiers
 - Small practical coding exercises and mini-projects
 
 ## Getting Started
@@ -166,4 +207,4 @@ jupyter notebook
 
 ## Notes
 
-This repository is designed for learners who want to strengthen their understanding of Python fundamentals through structured examples, hands-on practice, and beginner-friendly notebooks.
+This repository is designed for learners who want to strengthen their understanding of Python fundamentals through structured examples, hands-on practice, and beginner-friendly notebooks. It covers both introductory Python topics and deeper object-oriented and functional concepts.
