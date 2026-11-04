@@ -2,7 +2,7 @@
 
 Ethan Tech Classes
 
-A comprehensive Python learning repository covering core Python concepts, practical exercises, object-oriented programming, file handling, and beginner-friendly Jupyter notebooks.
+A comprehensive Python learning repository covering core Python concepts, practical exercises, object-oriented programming, file handling, data manipulation, and beginner-friendly Jupyter notebooks.
 
 ## Repository Contents
 
@@ -159,7 +159,23 @@ Key concepts:
 - Efficient looping patterns
 - OOP fundamentals at a deeper level
 
-### 9. Mini Projects and Practice Exercises
+### 9. Data Manipulation with Pandas
+Files:
+- `Data Manipulation/PandasLevel_1.ipynb`
+
+Topics covered:
+- Creating `Series` and `DataFrame` objects from lists and dictionaries
+- Reading and writing CSV/Excel/JSON data
+- Data exploration with `info()`, `describe()`, `columns`, and `value_counts()`
+- Simple filtering using column selection, slicing, and `.loc` / `.iloc`
+- Basic statistical analysis such as mean, median, mode, and `nunique()`
+
+Key concepts:
+- Data preparation and analysis
+- Working with tabular data in Python
+- Pandas fundamentals for beginner data projects
+
+### 10. Mini Projects and Practice Exercises
 Files:
 - `Projects/StuNamaProject.ipynb`
 
@@ -184,6 +200,7 @@ This repository helps learners practice and understand:
 - File handling and OOP fundamentals
 - Function creation, decorators, and exception handling
 - Inheritance, polymorphism, and access modifiers
+- Data manipulation with Pandas and basic exploratory analysis
 - Small practical coding exercises and mini-projects
 
 ## Getting Started
@@ -207,4 +224,4 @@ jupyter notebook
 
 ## Notes
 
-This repository is designed for learners who want to strengthen their understanding of Python fundamentals through structured examples, hands-on practice, and beginner-friendly notebooks. It covers both introductory Python topics and deeper object-oriented and functional concepts.
+This repository is designed for learners who want to strengthen their understanding of Python fundamentals through structured examples, hands-on practice, and beginner-friendly notebooks. It covers foundational programming, OOP, file handling, and a practical introduction to data manipulation using Pandas.
